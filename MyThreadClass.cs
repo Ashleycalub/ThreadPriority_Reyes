@@ -11,7 +11,7 @@ namespace ThreadPriority_Reyes
     {
         public static void thread1()
         {
-            for (int loopCount = 0; loopCount < 3; loopCount++)
+            for (int loopCount = 0; loopCount < 2; loopCount++)
             {
                 Thread thread = Thread.CurrentThread; 
                 Console.WriteLine("Name of Thread: " + thread.Name + " = " + loopCount);
